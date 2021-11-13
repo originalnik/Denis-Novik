@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Denis Novik</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</head>
+<body>
+<script src="https://kit.fontawesome.com/ea9fb21258.js" crossorigin="anonymous"></script>
+<div class="container">
+      <header class="header">
+          <nav class="nav">
+            <div class="burger_menu">
+              <span></span>
+            </div>
+            <div class="wrappermenu">
+              <a href="#">Home</a>
+              <a href="#about">About me</a>
+              <a href="#programs">Skills</a>
+              <a href="#portfolio">Portfolio</a>
+              <a href="#footer">Contacts</a>
+            </div>
+          </nav>
+          <div class="land">
+            <div class="textwrapper">
+              <h1>Denis
+              Novik</h1>
+              <p class="maintext">UX | UI designer 24 years old, Minsk</p>
+              <div class="languagechanger"><a href="#"> RU </a> <a href="index.html">ENG</a></div>
+          </div>
+            <img src="img/landingphto.png" alt="" class="landimage">
+          </div>
+      </header>
+      <section class="aboutme" id="about">
+        <div class="textaboutme">
+          <h2>About me</h2>
+          <p>Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in design and everything connected with it.</p>
+              <p class="ptwo">I'm studying at courses "Web and mobile design interfaces" in IT-Academy.</p>
+             <p>Ready to implement excellent projects with wonderful people.</p>
+        </div>
+      </section>
+      <section class="programs" id="programs">
+        <h2>Skills</h2>
+        <p class="textaboutprograms">I work in such programs as</p>
+        <div class="wrapperprograms">
+          <div>
+            <img src="img/PS.svg" alt="Ps icon">
+            <p>Adobe Photoshop</p>
+          </div>
+          <div>
+            <img src="img/AI.svg" alt="Ai icon">
+            <p>Adobe Illustrator</p>
+          </div>
+          <div>
+            <img src="img/AE.svg" alt="Ae icon">
+            <p>Adobe After Effects</p>
+          </div>
+          <div>
+            <img src="img/Figma.svg" alt="Figma icon">
+            <p>Figma</p>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio" id="portfolio">
+        <h2>Portfolio</h2>
+        <div>
+          <a href="#"><img src="img/portfoliowork1.jpg" alt="Portfolio work: Online fashion store - Homepage"></a>
+          <a href="#">Online fashion store - Homepage</a>
+        </div>
+        <div>
+          <a href="#"><img src="img/portfoliowork2.png" alt="Portfolio work: Reebok Store - Concept"></a>
+          <a href="#">Reebok Store - Concept</a>
+          </div>
+        <div>
+          <a href="#"><img src="img/portfoliowork3.png" alt="Portfolio work: Braun Landing Page - Concept"></a>
+          <a href="#">Braun Landing Page - Concept</a>
+        </div>
+      </section>
+      <footer class="footer" id="footer">
+        <h2>Contacts</h2>
+        <p class="textforwelcometochat">Want to know more or just chat? You are welcome!</p>
+        <a href=""><button>Send message</button></a>
+        <div>
+          <a href="#" class="fab fa-linkedin-in"></a>
+          <a href="#" class="fab fa-instagram"></a>
+          <a href="#" class="fab fa-behance"></a>
+          <a href="#" class="fab fa-dribbble"></a>
+        </div>
+        <p class="textwithsocialnetwork">Like me on <a href="#">LinkedIn</a>, <a href="#">Instagram</a>, <a href="#">Behance</a>, <a href="#">Dribble</a></p>
+      </footer>
+</div>
+<script type="text/javascript">
+$(document).ready(function() {
+  $('.burger_menu').click(function(event) {
+    $('.burger_menu, .wrappermenu, .languagechanger').toggleClass('active');
+  });
+});
+</script>
+</body>
+</html>

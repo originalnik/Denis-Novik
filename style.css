@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	max-height: 100%;
+	max-width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: bold; font-family: Roboto; color:#070707;}
+/*--------------------*/
+nav a:last-child {
+	padding: 0;
+}
+a {
+	font-family: Roboto;
+	color: #828282;
+	font-weight: bold;
+	font-size: 18px;
+	transition: all 500ms ease;
+}
+p{
+	color: #070707;
+	font-size: 18px;
+	font-family: Roboto;
+}
+nav a:first-child{
+	color: #070707;
+}
+nav a {
+	font-family: Roboto;
+	color: #828282;
+	font-weight: bold;
+	font-size: 18px;
+	transition: all 500ms ease;
+}
+
+.container {
+	max-width: 946px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+}
+nav {
+	border-bottom: 1px solid #828282;
+}
+.wrappermenu {
+	margin: auto 0;
+	padding-top: 33px;
+	padding-bottom: 31px;
+	justify-content: space-between;
+	display: flex;
+	vertical-align: middle;
+}
+a:hover {
+	color: #070707;
+}
+a:active {
+	color: #828282;
+}
+.textwrapper h1 {
+	font-size: 47px;
+	max-width: 123PX;
+}
+
+.textwrapper {
+	padding-top: 40px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.landimage {
+	margin-top: 38px;
+	max-width: 100%;
+}
+.languagechanger {
+	display: flex;
+	transform: rotate(-90deg);
+	padding-top: 60px;
+	z-index: -2;
+	transition: all 500ms ease;
+}
+.languagechanger a:first-child{
+	padding-right: 10px;
+
+}
+.header {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 104px;
+}
+.textaboutme p:last-child {
+	padding: 0;
+}
+.aboutme {
+	background-color: #F6F6F6;
+	padding-left: 3000px;
+	margin-left: -3000px;
+	padding-right: 3000px;
+	margin-right: -3000px;
+}
+.textaboutme p {
+	text-align: center;
+	padding-bottom: 56px;
+}
+h2 {
+	font-size: 34px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.textaboutme {
+		padding-top: 120px;
+		padding-bottom: 107px;
+		justify-content: center;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		padding-right: 228px;
+		padding-left: 228px;
+}
+.textaboutme h2 {
+	padding-bottom: 35px;
+}
+.ptwo {
+	padding-right: 43px;
+	padding-left: 43px;
+}
+.programs {
+	margin: 0 auto;
+	margin-top: 91px;
+	justify-content: center;
+	text-align: center;
+}
+.burger_menu {
+	display: none;
+	z-index: 2;
+}
+.wrapperprograms p {
+	color: #828282;
+	font-size: 14px;
+	margin: auto;
+}
+.wrapperprograms img {
+	padding-bottom: 24px;
+}
+.wrapperprograms div {
+	padding-right: 183px;
+}
+.wrapperprograms {
+	display: flex;
+}
+.wrapperprograms div:last-child {
+	padding: 0;
+}
+.programs h2 {
+	padding-bottom: 69px;
+}
+
+.textaboutprograms {
+padding-bottom: 83px;
+}
+.portfolio {
+	margin-top: 177px;
+	background-color: #F6F6F6;
+	padding-left: 3000px;
+	margin-left: -3000px;
+	padding-right: 3000px;
+	margin-right: -3000px;
+	justify-content: center;
+	text-align: center;
+}
+.portfolio h2 {
+	margin-top: 112px;
+	padding-bottom: 47px;
+}
+.portfolio div {
+	padding-bottom: 99px;
+	flex: 0 1 25%;
+	display: flex;
+	flex-direction: column;
+
+}
+.portfolio div a {
+	text-decoration: underline;
+	font-weight: 500;
+	color: #070707;
+}
+.portfolio div a:hover {
+	color: #828282;
+}
+.portfolio div a:active {
+	color: #000;
+}
+.portfolio div img {
+	padding-bottom: 45px;
+}
+button {
+background-color: #070707;
+padding: 13px 30px 13px 30px;
+color: #fff;
+border-radius: 100px;
+font-family: Roboto;
+font-size: 18px;
+margin-top: 30px;
+transition: all 500ms ease;
+font-weight: 500;
+margin-bottom: 86px;
+}
+button:hover {
+	background-color: #828282;
+}
+.footer {
+	justify-content: center;
+	text-align: center;
+}
+.footer h2 {
+	margin-top: 114px;
+	padding-bottom: 23px;
+}
+.textforwelcometochat {
+	padding-right: 333px;
+	padding-left: 333px;
+}
+
+.footer div a {
+	color: #070707;
+	padding-right: 60px;
+	font-size: 40px;
+}
+.footer div {
+	padding-bottom: 45px
+}
+.footer div a:hover {
+	color: #828282;
+}
+.footer div a:last-child {
+	padding: 0;
+}
+.textwithsocialnetwork {
+	font-size: 14px;
+	color: #828282;
+	padding: 0px 380px 123px 380px;
+	font-weight: 500;
+}
+.textwithsocialnetwork a {
+	font-size: 14px;
+	color: #828282;
+	text-decoration:underline;
+	font-weight: 500;
+}
+.textwithsocialnetwork a:hover {
+	color: #070707;
+}
+.textwithsocialnetwork a:active {
+	color: #000;
+}
+img {
+	max-width: 100%;
+}
+@media (max-width: 960px) {
+  .container {
+		max-width: 700px;
+	}
+	.programs div {
+		flex-direction: column;
+		padding: 0 0 50px 0;
+	}
+	.textwithsocialnetwork {
+		padding: 0px 0px 100px 0px;
+	}
+	.textforwelcometochat {
+		padding: 20px 30px 20px 30px;
+	}
+	.textaboutme {
+		padding: 80px 0px 70px 0px;
+	}
+	.textaboutme p {
+		padding-right: 0px;
+		padding-left: 0;
+	}
+	.ptwo {
+		padding: 0px;
+	}
+	.maintext {
+		padding-right: 0px;
+	}
+}
+@media (max-width: 705px) {
+	.wrappermenu.active {
+		top: 0%;
+	}
+	.container {
+		max-width: 470px;
+	}
+	.portfolio {
+		margin-top: 60px;
+	}
+	.textwithsocialnetwork {
+		padding: 0px 0px 100px 0px;
+	}
+	.textforwelcometochat {
+		padding: 20px 30px 20px 30px;
+	}
+	.textaboutme {
+		padding: 60px 0px 50px 0px;
+	}
+	.textaboutme p {
+		padding-right: 0px;
+		padding-left: 0;
+	}
+	.ptwo {
+		padding: 0px;
+	}
+	.burger_menu {
+		display: block;
+		position: relative;
+		max-width: 33px;
+		min-height: 24px;
+		margin-left: auto;
+		margin-top: 30px;
+	}
+	.burger_menu:before,
+	.burger_menu:after {
+		content: '';
+		background-color: #000;
+		position: absolute;
+		min-width: 100%;
+		min-height: 4px;
+		left: 0;
+		transition: all 500ms ease 0s;
+	}
+	.burger_menu::before {
+		top: 0px;
+	}
+	.burger_menu:after {
+		bottom: 0px;
+	}
+	.burger_menu span {
+		background-color: #000;
+		position: absolute;
+		min-width: 100%;
+		min-height: 4px;
+		left: 0;
+		top: 10px;
+		transition: all 500ms ease;
+	}
+	.wrappermenu {
+		position: fixed;
+		left: 0;
+		top: -100%;
+		min-width: 100%;
+		min-height: 100%;
+		background-color: #fff;
+		display: flex;
+		z-index: 1;
+		padding-top: 20px;
+		flex-direction: column;
+		padding: 66px 100px 270px 26px;
+		border-bottom: 1px solid #000;
+		transition: all 500ms ease;
+	}
+	nav {
+		border: 0px;
+	}
+	.wrappermenu a{
+		font-size: 30px;
+	}
+	.languagechanger a {
+		font-size: 30px;
+		transform: rotate(-180deg);
+ 		padding-right: 0px;
+		padding-left: 15px;
+	}
+	.burger_menu.active span{
+		transform: scale(0);
+	}
+	.languagechanger {
+		position: relative;
+		display: none;
+		transition: all 500ms ease;
+	}
+	.burger_menu.active::before {
+	transform: rotate(45deg);
+	top: 16px;
+	}
+	.burger_menu.active::after{
+	transform: rotate(-45deg);
+	bottom: 21px;
+	}
+	.burger_menu.active {
+		min-height: 40px;
+		position: fixed;
+		min-width: 30px;
+		right: 20px;
+	}
+	.languagechanger.active {
+		z-index: 2;
+		position: relative;
+		display: flex;
+		position: fixed;
+		right: 0px;
+		top: 400px;
+		transition: all 500ms ease;
+	}
+	.textwrapper {
+		flex-direction: column;
+		padding-top: 0;
+	}
+	.landimage {
+		object-fit: cover;
+		min-height: 300px;
+	}
+	.header {
+		padding-bottom: 50px;
+	}
+	.maintext {
+		padding-top: 30px;
+		padding-right: 100px;
+	}
+}
+@media (max-width: 380px) {
+	.container {
+		max-width: 300px;
+	}
+	.portfolio img {
+		max-height: 250px;
+	}
+	.portfolio {
+		margin-top: 60px;
+	}
+	.textwithsocialnetwork {
+		padding: 0px 0px 100px 0px;
+	}
+	.textforwelcometochat {
+		padding: 10px 35px 10px 35px;
+	}
+	.textaboutme {
+		padding: 60px 0px 50px 0px;
+	}
+	.textaboutme p {
+		padding-right: 0px;
+		padding-left: 0;
+	}
+	.ptwo {
+		padding: 0px;
+	}
+	.footer div {
+		flex-direction: column;
+		display: flex;
+	}
+	.footer div a {
+		padding: 0px 0px 20px 0px;
+	}
+}
